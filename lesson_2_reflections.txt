@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository the new folder .git in your folder are created.
+This repository contains the metadata with history of the commits
+
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area is an interim step to the repository. In case of having many
+files to commit we can add each file to the staging area when it is ready to
+commit and then commit all of them in one touch. As a result, we don't make
+too many commits.
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help? 
+
+If you want to try some features that you don't sure they would work, you can
+create a new branch and make it there. As a result, you can try something new
+and don't spoil a master branch with bad commits.  
